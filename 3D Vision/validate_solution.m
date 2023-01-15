@@ -9,14 +9,14 @@ function validate_solution()
          
     for i = 1:10
         % load the image (change the path if needed)
-        img_filename_left = sprintf('test_%02d_left.png', i);
+        img_filename_left = sprintf('test_images/test_%02d_left.png', i);
         img_left = imread(img_filename_left);  
 
-        img_filename_right = sprintf('test_%02d_right.png', i);
+        img_filename_right = sprintf('test_images/test_%02d_right.png', i);
         img_right = imread(img_filename_right); 
         
         % load the true answer (change the path if needed)
-        data_filename = sprintf('test_%02d.mat', i);
+        data_filename = sprintf('test_images/test_%02d.mat', i);
         load(data_filename); 
         true_disparity = disparity;
         
