@@ -6,6 +6,8 @@ The test cases and validate_solution.m are provided by QUT.
 
 These functions passed all test on Matlab Grader and recieved 20/20 points
 
+Problem 3 did not come with a test function
+
 ## Description
 * Problem 1: Segmentation and Shape Classification
 
